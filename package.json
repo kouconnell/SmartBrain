@@ -2,6 +2,7 @@
   "name": "final-project",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://kouconnell.github.io/SmartBrain/",
   "type": "module",
   "scripts": {
     "dev": "vite",
