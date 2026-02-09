@@ -23,7 +23,7 @@ class Register extends Component {
 	}
 
 	onSubmitRegister = () => {
-		fetch('http://localhost:3000/register', {
+		fetch('http://smartbrainapi-ihpz.onrender.com/register', {
 			method: 'POST',
 			headers: {
 				'Content-Type': 'application/json',

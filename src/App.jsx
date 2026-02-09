@@ -86,7 +86,7 @@ class App extends Component {
 
   onButtonSubmit = () => {
     this.setState({imageUrl: this.state.input});
-      fetch('http://localhost:3000/imageurl', {
+      fetch('http://smartbrainapi-ihpz.onrender.com/imageurl', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -100,7 +100,7 @@ class App extends Component {
         console.log('Clarifai response:', response);
 
         if (response) {
-          fetch('http://localhost:3000/image', {
+          fetch('http://smartbrainapi-ihpz.onrender.com/image', {
             method: 'PUT',
             headers: {
               'Content-Type': 'application/json',
