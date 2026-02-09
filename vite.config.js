@@ -3,9 +3,10 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/SmartBrain/',
+  base: '/',
   plugins: [react()],
-  server: {
-    open: true,
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
   }
 })
